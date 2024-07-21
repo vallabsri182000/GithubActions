@@ -1,0 +1,23 @@
+{
+    "name": "test-app",
+    "version": "1.0.0",
+    "description": "A test Node.js application",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Samrat-A/GitActionsPOC.git"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "mocha": "^10.2.0",
+      "chai": "^4.3.7"
+    }
+  }
+  
